@@ -2,18 +2,26 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-10-23 01:27:22+0000\n"
+"PO-Revision-Date: 2020-06-18 21:12:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: es_VE\n"
 "Project-Id-Version: Themes - Twenty Twenty\n"
+
+#. Description of the theme
+msgid "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors."
+msgstr "Nuestro tema por defecto para 2020 está diseñado para aprovechar al máximo la flexibilidad del editor de bloques. Las organizaciones y empresas tienen la posibilidad de crear páginas de destino dinámicas con un sinfín de diseños usando los bloques de grupos y columnas. La columna de contenido centrada y la tipografía ajustada también lo hacen perfecto para blogs tradicionales. Los completos estilos de edición te dan una buena idea de cómo se verá tu contenido, incluso antes de que lo publiques. Puedes dar un toque personal a tu sitio cambiando los colores de fondo y el color de énfasis en el personalizador. Los colores de todos los elementos de tu sitio se calculan automáticamente en base a los colores que elijas, asegurando un alto y accesible contraste de color para tus visitantes."
 
 #. Theme Name of the theme
 msgid "Twenty Twenty"
 msgstr "Twenty Twenty"
+
+#: classes/class-twentytwenty-customize.php:246
+msgid "Show author bio"
+msgstr "Mostrar la biografía del autor"
 
 #: template-parts/entry-author-bio.php:29
 msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
@@ -24,7 +32,7 @@ msgctxt "Theme starter content"
 msgid "The New UMoMA Opens its Doors"
 msgstr "El nuevo UMoMA abre sus puertas"
 
-#: inc/template-tags.php:387
+#: inc/template-tags.php:393
 msgctxt "A string that is output before one or more categories"
 msgid "In"
 msgstr "En"
@@ -48,10 +56,6 @@ msgstr "Las exposiciones son realizadas por UMoMA en colaboración con artistas 
 #: inc/starter-content.php:133
 msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
 msgstr "Con siete pisos de arquitectura impresionante, UMoMA muestra exposiciones de arte contemporáneo internacional, a veces junto con retrospectivas históricas del arte. Los problemas existenciales, políticos y filosóficos son intrínsecos a nuestro programa. Como visitante, estás invitado a visitas guiadas, charlas de artistas, conferencias, proyecciones de películas y otros eventos con entrada gratuita"
-
-#: inc/starter-content.php:129
-msgid "”Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.”"
-msgstr "«Los cíborgs, como estableció la filósofa Donna Haraway, no son reverentes. No recuerdan el cosmos»."
 
 #: inc/starter-content.php:113
 msgid "From Signac to Matisse"
@@ -90,27 +94,27 @@ msgstr "El principal destino para el arte moderno en el norte de Suecia. Abierto
 msgid "The New UMoMA Opens its Doors"
 msgstr "El nuevo UMoMA abre sus puertas"
 
-#: classes/class-twentytwenty-customize.php:374
+#: classes/class-twentytwenty-customize.php:395
 msgid "Overlay Opacity"
 msgstr "Opacidad de la superposición"
 
-#: classes/class-twentytwenty-customize.php:354
+#: classes/class-twentytwenty-customize.php:375
 msgid "The color used for the text in the overlay."
 msgstr "El color usado por el texto en la superposición."
 
-#: classes/class-twentytwenty-customize.php:353
+#: classes/class-twentytwenty-customize.php:374
 msgid "Overlay Text Color"
 msgstr "Color del texto en la superposición"
 
-#: classes/class-twentytwenty-customize.php:332
+#: classes/class-twentytwenty-customize.php:353
 msgid "The color used for the overlay. Defaults to the accent color."
 msgstr "El color usado para la superposición. Por defecto es el color de énfasis."
 
-#: classes/class-twentytwenty-customize.php:331
+#: classes/class-twentytwenty-customize.php:352
 msgid "Overlay Background Color"
 msgstr "Color de fondo de la superposición"
 
-#: classes/class-twentytwenty-customize.php:262
+#: classes/class-twentytwenty-customize.php:283
 msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
 msgstr "Ajustes para la plantilla de portada. Añade una imagen destacada para usarla como fondo."
 
@@ -130,6 +134,10 @@ msgstr "Por defecto"
 msgid "Primary Color"
 msgstr "Color principal"
 
+#: inc/starter-content.php:129
+msgid "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
+msgstr "«Los cíborgs, como estableció la filósofa Donna Haraway, no son reverentes. No recuerdan el cosmos»."
+
 #: searchform.php:24 template-parts/modal-search.php:20
 msgid "Search for:"
 msgstr "Buscar:"
@@ -138,24 +146,24 @@ msgstr "Buscar:"
 msgid "search again"
 msgstr "buscar de nuevo"
 
-#. translators: %s: Number of search results
+#. translators: %s: Number of search results.
 #: index.php:39
 msgid "We found %s result for your search."
 msgid_plural "We found %s results for your search."
 msgstr[0] "Hemos encontrado %s resultado que coincide con tu búsqueda."
 msgstr[1] "Hemos encontrado %s resultados que coinciden con tu búsqueda."
 
-#. translators: %s: HTML character for up arrow
+#. translators: %s: HTML character for up arrow.
 #: footer.php:49
 msgid "Up %s"
 msgstr "Subir %s"
 
-#. translators: %s: HTML character for up arrow
+#. translators: %s: HTML character for up arrow.
 #: footer.php:43
 msgid "To the top %s"
 msgstr "Ir arriba %s"
 
-#. translators: Copyright date format, see https://secure.php.net/date
+#. translators: Copyright date format, see https://www.php.net/date
 #: footer.php:25
 msgctxt "copyright date format"
 msgid "Y"
@@ -165,7 +173,7 @@ msgstr "Y"
 msgid "404 not found"
 msgstr "404 - No encontrado"
 
-#: template-parts/content.php:48 template-parts/content-cover.php:138
+#: template-parts/content-cover.php:138 template-parts/content.php:48
 msgid "Pages:"
 msgstr "Páginas:"
 
@@ -217,12 +225,12 @@ msgstr "Enlaces sociales"
 msgid "Footer"
 msgstr "Pie de página"
 
-#. translators: %s: Author name
-#: template-parts/entry-author-bio.php:20 inc/template-tags.php:348
+#. translators: %s: Author name.
+#: inc/template-tags.php:354 template-parts/entry-author-bio.php:20
 msgid "By %s"
 msgstr "Por %s"
 
-#: template-parts/content.php:48 template-parts/content-cover.php:138
+#: template-parts/content-cover.php:138 template-parts/content.php:48
 msgid "Page"
 msgstr "Página"
 
@@ -249,28 +257,28 @@ msgstr "Buscar:"
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
 
-#: inc/template-tags.php:439
+#: inc/template-tags.php:445
 msgid "Sticky post"
 msgstr "Entrada fija"
 
-#: inc/template-tags.php:401
+#: inc/template-tags.php:407
 msgid "Tags"
 msgstr "Etiquetas"
 
-#: template-parts/entry-header.php:36 template-parts/content-cover.php:70
-#: inc/template-tags.php:383
+#: inc/template-tags.php:389 template-parts/entry-header.php:36
+#: template-parts/content-cover.php:70
 msgid "Categories"
 msgstr "Categorías"
 
-#: inc/template-tags.php:365
+#: inc/template-tags.php:371
 msgid "Post date"
 msgstr "Fecha de publicación"
 
-#: inc/template-tags.php:341
+#: inc/template-tags.php:347
 msgid "Post author"
 msgstr "Autor de la entrada"
 
-#: inc/starter-content.php:176 inc/starter-content.php:186 functions.php:491
+#: inc/starter-content.php:176 inc/starter-content.php:186 functions.php:492
 msgid "Primary"
 msgstr "Principal"
 
@@ -290,99 +298,99 @@ msgstr "Buscar"
 msgid "Continue reading"
 msgstr "Seguir leyendo"
 
-#: functions.php:548
+#: functions.php:549
 msgctxt "Short name of the larger font size in the block editor."
 msgid "XL"
 msgstr "XL"
 
-#: functions.php:547
+#: functions.php:548
 msgctxt "Name of the larger font size in the block editor"
 msgid "Larger"
 msgstr "Muy grande"
 
-#: functions.php:542
+#: functions.php:543
 msgctxt "Short name of the large font size in the block editor."
 msgid "L"
 msgstr "L"
 
-#: functions.php:541
+#: functions.php:542
 msgctxt "Name of the large font size in the block editor"
 msgid "Large"
 msgstr "Grande"
 
-#: functions.php:536
+#: functions.php:537
 msgctxt "Short name of the regular font size in the block editor."
 msgid "M"
 msgstr "M"
 
-#: functions.php:535
+#: functions.php:536
 msgctxt "Name of the regular font size in the block editor"
 msgid "Regular"
 msgstr "Normal"
 
-#: functions.php:530
+#: functions.php:531
 msgctxt "Short name of the small font size in the block editor."
 msgid "S"
 msgstr "S"
 
-#: functions.php:529
+#: functions.php:530
 msgctxt "Name of the small font size in the block editor"
 msgid "Small"
 msgstr "Pequeña"
 
-#: functions.php:514
+#: functions.php:515
 msgid "Background Color"
 msgstr "Color de fondo"
 
-#: functions.php:501
+#: functions.php:502
 msgid "Subtle Background"
 msgstr "Fondo del subtítulo"
 
-#: functions.php:496
+#: functions.php:497
 msgid "Secondary"
 msgstr "Secundario"
 
-#: functions.php:486
+#: functions.php:487
 msgid "Accent Color"
 msgstr "Color de énfasis"
 
-#: functions.php:377
+#: functions.php:380
 msgid "Widgets in this area will be displayed in the second column in the footer."
 msgstr "Los widgets de esta área se mostrarán en la segunda columna del pie de página."
 
-#: functions.php:375
+#: functions.php:378
 msgid "Footer #2"
 msgstr "Pie de página #2"
 
-#: functions.php:365
+#: functions.php:368
 msgid "Widgets in this area will be displayed in the first column in the footer."
 msgstr "Los widgets de esta área se mostrarán en la primera columna del pie de página."
 
-#: functions.php:363
+#: functions.php:366
 msgid "Footer #1"
 msgstr "Pie de página #1"
 
-#: functions.php:338
+#: functions.php:341
 msgid "Skip to the content"
 msgstr "Saltar al contenido"
 
-#: functions.php:259
+#: functions.php:262
 msgid "Social Menu"
 msgstr "Menú social"
 
-#: functions.php:258
+#: functions.php:261
 msgid "Footer Menu"
 msgstr "Menú del pie de página"
 
-#: functions.php:257
+#: functions.php:260
 msgid "Mobile Menu"
 msgstr "Menú móvil"
 
-#: functions.php:256
+#: functions.php:259
 msgid "Desktop Expanded Menu"
 msgstr "Menú ampliado del escritorio"
 
-#: functions.php:255
+#: functions.php:258
 msgid "Desktop Horizontal Menu"
 msgstr "Menú horizontal del escritorio"
 
@@ -398,11 +406,7 @@ msgstr "Comentarios"
 msgid "Older Comments"
 msgstr "Comentarios anteriores"
 
-#: comments.php:74
-msgid "Newer Comments"
-msgstr "Comentarios siguientes"
-
-#. translators: 1: number of comments, 2: post title
+#. translators: 1: Number of comments, 2: Post title.
 #: comments.php:41
 msgctxt "comments title"
 msgid "%1$s reply on &ldquo;%2$s&rdquo;"
@@ -410,7 +414,7 @@ msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
 msgstr[0] "%1$s respuesta a &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s respuestas a &ldquo;%2$s&rdquo;"
 
-#. translators: %s: post title
+#. translators: %s: Post title.
 #: comments.php:37
 msgctxt "comments title"
 msgid "One reply on &ldquo;%s&rdquo;"
@@ -420,12 +424,12 @@ msgstr "Una respuesta a &ldquo;%s&rdquo;"
 msgid "Leave a comment"
 msgstr "Deja un comentario"
 
-#: classes/class-twentytwenty-walker-page.php:134 inc/template-tags.php:545
+#: classes/class-twentytwenty-walker-page.php:107 inc/template-tags.php:555
 msgid "Show sub menu"
 msgstr "Mostrar el submenú"
 
-#. translators: %d: ID of a post
-#: classes/class-twentytwenty-walker-page.php:82
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:70
 msgid "#%d (no title)"
 msgstr "#%d (sin título)"
 
@@ -441,7 +445,7 @@ msgstr "Tu comentario está pendiente de moderación."
 msgid "Edit"
 msgstr "Editar"
 
-#. Translators: 1 = comment date, 2 = comment time
+#. translators: 1: Comment date, 2: Comment time.
 #: classes/class-twentytwenty-walker-comment.php:69
 msgid "%1$s at %2$s"
 msgstr "%1$s a las %2$s"
@@ -450,32 +454,32 @@ msgstr "%1$s a las %2$s"
 msgid "says:"
 msgstr "dice:"
 
-#: classes/class-twentytwenty-customize.php:375
+#: classes/class-twentytwenty-customize.php:396
 msgid "Make sure that the contrast is high enough so that the text is readable."
 msgstr "Asegúrate de que el contraste sea suficientemente alto para que el texto sea legible."
 
-#: classes/class-twentytwenty-customize.php:285
+#: classes/class-twentytwenty-customize.php:306
 msgid "Creates a parallax effect when the visitor scrolls."
 msgstr "Crea un efecto Parallax cuando el visitante hace scroll."
 
-#: classes/class-twentytwenty-customize.php:284
+#: classes/class-twentytwenty-customize.php:305
 msgid "Fixed Background Image"
 msgstr "Imagen de fondo fija"
 
 #. Template Name of the theme
-#: classes/class-twentytwenty-customize.php:260
+#: classes/class-twentytwenty-customize.php:281
 msgid "Cover Template"
 msgstr "Plantilla de portada"
 
-#: classes/class-twentytwenty-customize.php:249
+#: classes/class-twentytwenty-customize.php:270
 msgid "Summary"
 msgstr "Resumen"
 
-#: classes/class-twentytwenty-customize.php:248
+#: classes/class-twentytwenty-customize.php:269
 msgid "Full text"
 msgstr "Texto completo"
 
-#: classes/class-twentytwenty-customize.php:246
+#: classes/class-twentytwenty-customize.php:267
 msgid "On archive pages, posts show:"
 msgstr "En las páginas de archivo, las entradas muestran:"
 
@@ -514,6 +518,10 @@ msgstr "Scroll abajo"
 #: inc/starter-content.php:196
 msgid "Social Links Menu"
 msgstr "Menú de enlaces sociales"
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr "Comentarios recientes"
 
 #. Author of the theme
 msgid "the WordPress team"
